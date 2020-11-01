@@ -1,0 +1,42 @@
+.vvv {
+width: 100vw;
+position: relative;
+display: flex;
+flex-flow: column wrap;
+transform: translateY(-400px);
+align-items: center;
+animation: ddd;
+animation-duration: 0.2s;
+animation-play-state: paused;
+animation-fill-mode: forwards;
+}
+
+.vvv:hover {
+transform: translateY(-395px);
+}
+
+.vvv:active {
+transform: translateY(-400px);
+animation-play-state: running;
+
+}
+
+@keyframes ddd {
+	0%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0
+	}
+}
+
+.vvvv {
+font:"helvetica";
+width: 100vw;
+position: relative;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+transform: translateY(100px);
+}
